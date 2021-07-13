@@ -28,7 +28,7 @@ class CaixaOperadores {
     }
   }
 
-  static void remover(int objMatricula) {
+  static void remover(int matricula) {
     _listaDeCaixaOperadores
         .removeWhere((caixaOperador) => caixaOperador.matricula == matricula);
   }
